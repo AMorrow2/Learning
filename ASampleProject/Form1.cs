@@ -36,8 +36,7 @@ namespace ASampleProject
             {
                 while ((line = file.ReadLine()) != null)
                 {
-                    Console.WriteLine(line);
-                    counter++;
+                    namesListBox.Items.Add(++counter + ". " + line);
                 }
             }
             catch
