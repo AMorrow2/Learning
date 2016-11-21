@@ -30,6 +30,7 @@
         {
             this.refreshButton = new System.Windows.Forms.Button();
             this.namesListBox = new System.Windows.Forms.ListBox();
+            this.mcgeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // refreshButton
@@ -50,11 +51,21 @@
             this.namesListBox.Size = new System.Drawing.Size(159, 264);
             this.namesListBox.TabIndex = 1;
             // 
+            // mcgeButton
+            // 
+            this.mcgeButton.Location = new System.Drawing.Point(187, 12);
+            this.mcgeButton.Name = "mcgeButton";
+            this.mcgeButton.Size = new System.Drawing.Size(75, 23);
+            this.mcgeButton.TabIndex = 2;
+            this.mcgeButton.Text = "my button";
+            this.mcgeButton.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 286);
+            this.Controls.Add(this.mcgeButton);
             this.Controls.Add(this.namesListBox);
             this.Controls.Add(this.refreshButton);
             this.Name = "Form1";
@@ -67,6 +78,7 @@
 
         private System.Windows.Forms.Button refreshButton;
         private System.Windows.Forms.ListBox namesListBox;
+        private System.Windows.Forms.Button mcgeButton;
     }
 }
 
