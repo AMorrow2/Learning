@@ -34,7 +34,7 @@
             // 
             // refreshButton
             // 
-            this.refreshButton.Location = new System.Drawing.Point(177, 221);
+            this.refreshButton.Location = new System.Drawing.Point(177, 247);
             this.refreshButton.Name = "refreshButton";
             this.refreshButton.Size = new System.Drawing.Size(95, 29);
             this.refreshButton.TabIndex = 0;
@@ -47,18 +47,18 @@
             this.namesListBox.FormattingEnabled = true;
             this.namesListBox.Location = new System.Drawing.Point(12, 12);
             this.namesListBox.Name = "namesListBox";
-            this.namesListBox.Size = new System.Drawing.Size(159, 238);
+            this.namesListBox.Size = new System.Drawing.Size(159, 264);
             this.namesListBox.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(284, 286);
             this.Controls.Add(this.namesListBox);
             this.Controls.Add(this.refreshButton);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Names in File";
             this.ResumeLayout(false);
 
         }
