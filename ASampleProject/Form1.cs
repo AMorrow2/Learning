@@ -22,6 +22,7 @@ namespace ASampleProject
         {
             System.IO.StreamReader file;
             string line;
+
             try
             {
                 file = new System.IO.StreamReader("names.txt");
