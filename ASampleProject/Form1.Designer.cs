@@ -58,7 +58,7 @@
             this.Controls.Add(this.namesListBox);
             this.Controls.Add(this.refreshButton);
             this.Name = "Form1";
-            this.Text = "Names in File";
+            this.Text = "Displaying Names in File";
             this.ResumeLayout(false);
 
         }
